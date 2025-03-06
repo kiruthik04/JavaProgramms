@@ -1,0 +1,15 @@
+class LevelOrderTraversal{
+    static void levelOrderRec(Node root, int level, ArrayList<ArrayList<Integer>> res){
+        if (root == null) return;
+
+        if(res.size() <= level)
+            res.add(new ArrayList<>());
+        res.get(level).add(root.data);
+
+        levelOrderRec(root.left, level + 1, res);
+        levelOrderRec(root.right, level + 1, res);
+    }
+
+    static ArrayList<ArrayList<Integer>> LevelOrderTraversal
+    
+}

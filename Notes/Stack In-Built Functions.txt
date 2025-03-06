@@ -1,0 +1,18 @@
+Stack In-Built Functions:
+
+1. push();
+2. pop();
+3. peek();
+4. isEmpty();
+5. search(Object o); // returns -1 if element is absent
+6. size();
+7. clear(); // empty the stack
+8. contains(Object o); // checks specific object is present in the stack
+9. iterator();
+	Iterator<Tnteger> it = stack.iterator();
+	while(it.hasNext()){
+		System.out.println(it.next());
+	}
+	O/P:
+		10 20 30
+10. toString();

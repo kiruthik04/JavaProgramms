@@ -1,0 +1,17 @@
+class Test 
+{
+	public static void m1(int a){
+		System.out.println("int-arg");
+	}
+	public static void m1(float f){
+		System.out.println("float-arg");
+	}
+	public static void main(String[] args) 
+	{
+		m1(10);
+		m1(10.5f);
+		m1('a');
+		m1(10l);
+		m1(10.5);
+	}
+}
