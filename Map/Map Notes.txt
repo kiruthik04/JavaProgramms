@@ -1,0 +1,8 @@
+Map Notes
+---------
+
+1. HashMap - Unordered, Fast Retrieval
+
+2. LinkedHashMap - Maintain insertion Order
+
+3. 
